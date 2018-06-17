@@ -1,1 +1,4 @@
 *.sqlite
+bootstrap
+config
+database
