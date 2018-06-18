@@ -8,9 +8,10 @@
 <body>
 <div class="container">
 @yield('content')
-</div>
+
 <footer id="footer">
 <p>copyright &copy; 2018</p>
 </footer>
+</div>
 </body>
 </html>

@@ -5,11 +5,10 @@
 @if(count($todos) > 0)
 @foreach($todos as $todo)
 
-<div class="well">
-  <h3>{{$todo->text}}</h3>
-  <span class="label lael-danger">{{$todo->due}}</span>
+<div class="card card-inverse">
+  <h3><a href="todo/{{$todo->id}}">{{$todo->text}}</a> <span class="btn btn-danger">{{$todo->due}}</span></h3>
 </div>
 
 @endforeach
 @endif
-@ensection  
+@endsection  
